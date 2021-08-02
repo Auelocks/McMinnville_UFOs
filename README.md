@@ -9,11 +9,11 @@ This webpage was built using JavaScript with D3 to generate a table of UFO sight
 ## Results
 
 The webpage will initially load with the full table of UFO sighting data for the user to view.  There are five fields available to the left of the table for the user to filter the data based on:
-     • Date
-     • City
-     • State
-     • Country
-     • Shape (of UFO)
+ * Date
+ * City
+ * State
+ * Country
+ * Shape (of UFO)
 
 Unfiltered, the site appears as follows:
 
