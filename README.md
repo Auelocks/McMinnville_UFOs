@@ -17,15 +17,15 @@ The webpage will initially load with the full table of UFO sighting data for the
 
 Unfiltered, the site appears as follows:
 
-![FilterSearch]( /static/images/FilterSearch.png)
+![FilterSearch](static/images/FilterSearch.png)
 
 The JavaScript file “app.js” utilizes D3 to listen for and apply user input to rebuild the UFO sighting data table.  The script will take the user input values in one or more of the provided filter fields and rebuild the table based on the data that matches.  Each filter field displays an example of the format that should be provided.  For example, the *Enter a State* field shows that the expected input is a state abbreviation in lowercase letters.  If we input “tx” in this field, the table will filter, displaying only the data that matches with State listed as “tx”
 
-![FilterSearch-tx]( /static/images/FilterSearch-tx.png)
+![FilterSearch-tx](static/images/FilterSearch-tx.png)
 
 The search can be as specific as possible, for example, here we have further refined our search by filtering based on “State: tx” and “Date: 1/8/2010.”  This returns all data that meets **both** criteria entered in the filter fields:
 
-![ FilterSearch-tx-date]( /static/images/FilterSearch-tx-date.png)
+![ FilterSearch-tx-date](static/images/FilterSearch-tx-date.png)
 
 If a value is entered in any of the filter fields does not match any data, then the table will not populate.  To repopulate the webpage with the original table, simply delete any text from all the filter fields and hit “enter” or refresh the page.
 
